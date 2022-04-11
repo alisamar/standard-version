@@ -10,6 +10,9 @@ const defaults = {
   tagPrefix: 'v',
   scripts: {},
   skip: {},
+  context: {
+    linkReferences: true
+  },
   dryRun: false,
   gitTagFallback: true,
   preset: require.resolve('conventional-changelog-conventionalcommits')
